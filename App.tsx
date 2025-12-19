@@ -418,7 +418,7 @@ const About: React.FC<{ lang: Language }> = ({ lang }) => {
             preload="metadata"
             aria-hidden="true"
           >
-            <source src="/video/about-bg.mp4" type="video/mp4" />
+            <source src="https://drive.google.com/uc?export=download&id=1-2rA8tG3X7vls10hLhUm0tQycLMgsjUi" type="video/mp4" />
           </video>
         </div>
       ) : (
