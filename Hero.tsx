@@ -244,7 +244,7 @@ export const Hero: React.FC<{ lang: Language }> = ({ lang }) => {
             playsInline
             preload="metadata"
           >
-            <source src="/hero/hero.mp4" type="video/mp4" />
+            <source src="https://drive.google.com/uc?export=download&id=1H0WwUMHwAzhCUntQg0e0ec-4xKmFT1Xh" type="video/mp4" />
           </video>
         </div>
 
@@ -262,7 +262,7 @@ export const Hero: React.FC<{ lang: Language }> = ({ lang }) => {
             playsInline
             preload="metadata"
           >
-            <source src="/hero/hero.mp4" type="video/mp4" />
+            <source src="https://drive.google.com/uc?export=download&id=1H0WwUMHwAzhCUntQg0e0ec-4xKmFT1Xh" type="video/mp4" />
           </video>
         </div>
 
