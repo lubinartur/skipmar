@@ -416,9 +416,10 @@ const About: React.FC<{ lang: Language }> = ({ lang }) => {
             loop
             playsInline
             preload="metadata"
+            crossOrigin="anonymous"
             aria-hidden="true"
           >
-            <source src="https://drive.google.com/uc?export=download&id=1-2rA8tG3X7vls10hLhUm0tQycLMgsjUi" type="video/mp4" />
+            <source src="https://drive.usercontent.google.com/download?id=1-2rA8tG3X7vls10hLhUm0tQycLMgsjUi&export=download&confirm=t" type="video/mp4" />
           </video>
         </div>
       ) : (
