@@ -1,0 +1,40 @@
+:root {
+  --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.hero-text-shadow {
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.45);
+}
+
+.hero-text-shadow-sm {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-5%, -10%); }
+  20% { transform: translate(-15%, 5%); }
+  30% { transform: translate(7%, -25%); }
+  40% { transform: translate(-5%, 25%); }
+  50% { transform: translate(-15%, 10%); }
+  60% { transform: translate(15%, 0%); }
+  70% { transform: translate(0%, 15%); }
+  80% { transform: translate(3%, 35%); }
+  90% { transform: translate(-10%, 10%); }
+}
+
+
