@@ -419,7 +419,7 @@ const About: React.FC<{ lang: Language }> = ({ lang }) => {
             crossOrigin="anonymous"
             aria-hidden="true"
           >
-            <source src="https://drive.usercontent.google.com/download?id=1-2rA8tG3X7vls10hLhUm0tQycLMgsjUi&export=download&confirm=t" type="video/mp4" />
+            <source src="https://ylub2vqsmlzfkckh.public.blob.vercel-storage.com/about-bg.mp4" type="video/mp4" />
           </video>
         </div>
       ) : (
